@@ -1,0 +1,39 @@
+.masthead {
+    grid-area: hero;
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    text-align: center;
+    background-color: #06402b; /* light blu */
+    height: 75vh; /* Full screen height */
+}
+
+.pizza-masthead > h1 {
+    color: #f8f8f8; /* White text */
+    font-size: 20px; /* Large font size */
+    font-family: "Verdana", sans-serif; /* Same font family */
+    padding: 20px; /* Adds space around the content */
+    align-items: center;
+}
+
+body {
+    background-color: #840000; /* Light cyan for the rest of the page */
+    margin: 0;
+    font-family: "Verdana", sans-serif;
+    align-items: center;
+}
+
+button, input[type="submit"] {
+    background-color: #000000; /* Matches the light blue */
+    color: #f8f8f8; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    align-items: center;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #06402b; /* Dark green hover effect */
+}
